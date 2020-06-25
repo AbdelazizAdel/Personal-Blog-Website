@@ -1,0 +1,112 @@
+@import "Blog_post_big_screen.css" screen and (min-width: 900px);
+@import "nav_bar.css";
+@import "footer.css";
+
+body {
+    font-family: "Varela Round", sans-serif;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+li > a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vh 1vw;
+    color: #222;
+    margin: 1vh 0;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.author > img {
+    border-radius: 50%;
+    width: 15%;
+    height: 7vw;
+    object-fit: cover;
+
+}
+
+.author > p {
+    margin-left: 2vw;
+}
+
+article h2 {
+    font-size: 1.8em;
+}
+
+article p {
+    text-align: justify;
+}
+
+.traversal {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 3vh 0;
+    border-radius: 10px;
+    background-color: #444;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+button > a {
+    text-decoration: none;
+    color: #fffff8;
+}
+
+figure {
+    display: inline-block;
+}
+
+figure img {
+    width: 35vw;
+    height: 35vw;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+}

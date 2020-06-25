@@ -1,0 +1,9 @@
+@import "index_big_screen.css" screen and (min-width: 900px);
+@import "nav_bar.css";
+@import "cards.css";
+@import "footer.css";
+
+body {
+    font-family: "Varela Round", sans-serif;
+}
+

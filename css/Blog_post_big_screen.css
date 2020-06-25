@@ -1,0 +1,7 @@
+body {
+    display: grid;
+    grid-template-columns: 80% 18%;
+    grid-template-rows: auto auto 10vh;
+    grid-template-areas: 'header header' 'main aside' 'footer footer';
+    column-gap: 2vw;
+}
